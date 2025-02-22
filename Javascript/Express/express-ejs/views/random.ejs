@@ -1,0 +1,12 @@
+<%- include('partials/header.ejs') %>
+<%- include('partials/navbar.ejs') %>
+
+    <h1>random number: <%= num %></h1>
+    <% if(num % 2 === 0){ %>
+    <h3>angka genap</h3>
+    <% } else { %>
+    <h2>angka gnjil</h2>
+    <% } %>
+
+    <h3>tha number is : <%= num%2 === 0 ? 'even' : 'ood' %></h3>
+<%- include('partials/footer.ejs') %>

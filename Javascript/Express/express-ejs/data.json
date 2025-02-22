@@ -1,0 +1,59 @@
+{
+	"javascript": {
+		"title": "JavaScript",
+		"followers": 15000000,
+		"description": "JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It enables interactive web pages and is an essential part of web applications.",
+		"posts": [
+			{
+				"title": "Understanding JavaScript Promises",
+				"author": "Sarah Johnson"
+			},
+			{
+				"title": "ES6 Features You Should Know",
+				"author": "Michael Chen"
+			},
+			{
+				"title": "JavaScript Best Practices 2024",
+				"author": "David Wilson"
+			}
+		]
+	},
+	"react": {
+		"title": "React",
+		"followers": 8500000,
+		"description": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies.",
+		"posts": [
+			{
+				"title": "Getting Started with React Hooks",
+				"author": "Emily Brown"
+			},
+			{
+				"title": "Advanced React Patterns",
+				"author": "Alex Turner"
+			},
+			{
+				"title": "React Performance Optimization",
+				"author": "Lisa Zhang"
+			}
+		]
+	},
+	"php": {
+		"title": "PHP",
+		"followers": 6000000,
+		"description": "PHP is a popular general-purpose scripting language especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.",
+		"posts": [
+			{
+				"title": "Modern PHP Development",
+				"author": "John Smith"
+			},
+			{
+				"title": "PHP 8 New Features",
+				"author": "Maria Garcia"
+			},
+			{
+				"title": "Building RESTful APIs with PHP",
+				"author": "Tom Anderson"
+			}
+		]
+	}
+}

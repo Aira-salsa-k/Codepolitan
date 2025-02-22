@@ -1,0 +1,16 @@
+<%- include('partials/header.ejs') %>
+<%- include('partials/navbar.ejs') %>
+
+	
+		<h2>ini data.title : <%= data.title %></h2>
+		<h3><%= data.description %></h3>
+		<p>Folowers : <% data.followers %></p>
+
+		<hr />
+		<% for(let post of data.posts) { %>
+		<article>
+			<p><%= post.title %> - <%= post.author %></p>
+		</article>
+		<% } %>
+
+<%- include('partials/footer.ejs') %>
